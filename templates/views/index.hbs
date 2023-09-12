@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>BAxPI - Weather</title>
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="icon" href="/img/weather.png"
+    </head>
+
+    <body>
+        {{>header}}
+        <div class="main-content">
+            <h2> Search a location to see the weather </h2>
+            <form>
+                <input placeholder="ex: Gap France">
+                <button>Search</button>
+            </form>
+            <p id="message-1"></p>
+            <p id="message-2"></p>
+        </div>
+        {{>footer}}
+        <script src="/js/app.js"></script>
+    </body>
+</html>
